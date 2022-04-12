@@ -13,6 +13,8 @@ public class Robot extends TimedRobot {
 
   private RobotContainer m_robotContainer;
 
+  PhotonCammera cammera = new PhotonCammera(photonvision);
+
   public static boolean inAuto = false;
 
   public static Timer timer;
